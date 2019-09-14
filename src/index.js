@@ -7,8 +7,6 @@ import store from './store'
 import {Provider} from 'react-redux'
 
 
-//Computer Select
-
 ReactDOM.render(
     <Provider store = {store}>
         <App />
