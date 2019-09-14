@@ -7,10 +7,10 @@ export default function ModelDetails(props) {
     {
           props &&
           <ul>{props.computers.computerSelected.map(computer => 
-            <div><li key = {computer.name}>{computer.name}</li>
-                <li key = {computer.manufacturer}> {computer.manufacturer}</li> 
-                <li key = {computer.year}>{computer.year}</li>
-                <li key = {computer.origin}> {computer.origin}</li>
+            <div><li key = {computer.name}>Name: {computer.name}</li>
+                <li key = {computer.manufacturer}>Manufactuer: {computer.manufacturer}</li> 
+                <li key = {computer.year}>Year: {computer.year}</li>
+                <li key = {computer.origin}>Origin: {computer.origin}</li>
                 <br />
           </div>
           )}</ul>
